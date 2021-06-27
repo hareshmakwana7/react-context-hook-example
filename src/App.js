@@ -4,6 +4,7 @@ import BookList from "./components/BookList";
 import ThemeContextProvider from "./context/ThemeContext";
 import ThemeToggleButton from "./components/ThemeToggleButton";
 import {UseCallbackComponent} from "./components/useCallback/UseCallbackComponent";
+import {UseReducerComponent} from "./components/useReducer/UseReducerComponent";
 
 function App() {
     return (
@@ -20,6 +21,11 @@ function App() {
             <hr />
 
             <UseCallbackComponent />
+
+            <h1>Use Reducer Example</h1>
+            <hr />
+
+            <UseReducerComponent />
         </div>
     );
 }
